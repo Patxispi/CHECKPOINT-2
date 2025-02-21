@@ -19,4 +19,25 @@
 
 .flex_flexTwo {
     display: flex;
+    flex-direction: column;
+}
+
+.flex_flexTwo > .square {
+    margin: 2px;
+}
+
+.flex_flexThree {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex_flexThree > .square {
+    margin: 2px;
+}
+
+.flex_flexFour {
+    display: flex;
+    width: 350px;
+    background-color: #3d8b6d;
+
 }
