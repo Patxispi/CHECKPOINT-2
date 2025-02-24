@@ -38,6 +38,124 @@
 .flex_flexFour {
     display: flex;
     width: 350px;
-    background-color: #3d8b6d;
+    flex-wrap: wrap;
+}
 
+.square4 {
+    background-color: #3d8b6d;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.flex_flexFive {
+    display: flex;
+    width: 350px;
+}
+
+.item {
+    background-color:#0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+#grow {
+    flex-grow: 2;
+}
+
+.flex_flexSix {
+    height: 400px;
+    width: 500px;
+    background-color: #f1f1f1;
+    flex-direction: column;
+}
+
+.flex_flexSix > .one {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flex_flexSix > .two  {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #d6d6d6;
+}
+
+.flex_flexSix > .three {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex_flexSeven {
+    display: flex;
+    height: 400px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.flex_flexSeven > .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex_flexSeven > .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #d6d6d6;
+}
+
+.flex_flexSeven > .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flex_flexSeven > .four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
+
+.flex_flexEight {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-color: #eeeeee;
+}
+
+.flex_flexEight > .one {
+    display: flex;
+    align-items: center;
+}
+
+.flex_flexEight > .two {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex_flexEight > .three {
+    display: flex;
+    align-items: flex-end;
+    align-items: flex-start;
+}
+
+.flex_flexNine {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background-color: #eeeeee;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.flex_flexNine > #special {
+    display: flex;
+    align-self: flex-end;
+    
 }
